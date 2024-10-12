@@ -1,0 +1,27 @@
+html,
+body {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  * {
+    color: var(--text-color);
+  }
+
+}
+
+:root {
+  --primary-color: #6F4E37;
+  --secondary-color: #A98274;
+  --accent-color: #D7B49E;
+  --background-color: #F5F5DC;
+  --text-color: #3E2723;
+  --soft-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --bold-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  font-size: 1.5rem;
+  margin: 0 auto 0;
+  background-color: var(--background-color);
+}

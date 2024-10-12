@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css';
+import './index.scss';
+import Navbar from './Components/Navbar/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.title = 'Little Lemon';
 root.render(
   <React.StrictMode>
-    <App />
+    <nav>
+      <Navbar/>
+    </nav>
+    <main>main</main>
+    <footer>footer</footer>
   </React.StrictMode>
 );
 
