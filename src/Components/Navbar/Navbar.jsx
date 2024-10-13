@@ -3,7 +3,8 @@ import "./Navbar.scss";
 function Navbar() {
     return (
         <ul className="Navbar">
-			my nav
+			<li>burgir</li>
+			<li>logo</li>
         </ul>
     );
 }

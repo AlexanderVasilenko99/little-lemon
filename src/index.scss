@@ -25,3 +25,31 @@ body {
   margin: 0 auto 0;
   background-color: var(--background-color);
 }
+
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 10% 85% 5%;
+  gap: 1em;
+  padding: 0 1em;
+}
+
+@media only screen and (min-width: 769px) {
+  #root {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+nav,
+footer {
+  grid-column: span 4;
+  margin: 0 -1em;
+}
+
+main {
+  grid-column: span 4;
+}
